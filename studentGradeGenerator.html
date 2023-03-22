@@ -1,0 +1,36 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE</title>
+    <link rel="stylesheet" href="./ style.css">
+</head>
+<body>
+    <form>
+        <label for="marks">Marks:</label><br>
+        <input type="number" id="marks" name="marks" min="0" max="100"><br>
+      </form>
+    <button id="grader-btn">GRADE</button>
+     <form>
+        <label for="speed">CURRENT SPEED:</label><br>
+        <input type="number" id="speed" name="speed" min="0" max="360"><br>
+      </form>
+    <button id="speedTest-btn">SPEED GOVERNOR</button>
+      <form>
+        <label for="bsc-salary">Bsc Salary:</label><br>
+        <input type="number" id="bscSalary" name="bscSalary"><br>
+      </form>
+      <button id="paye-btn">PAYE</button>
+  <button id="nhif-btn">NHIF DEDUCTION</button>
+  <button id="nssf-btn">NSSF DEDUCTION</button>
+  <button id="netSalary-btn">NET SALARY</button>
+
+    <script src="gradeGenerator.js"></script>
+    <script src="speedLimit.js"></script>
+    <script src="netSalary.js"></script>
+
+</body>
+</html>
