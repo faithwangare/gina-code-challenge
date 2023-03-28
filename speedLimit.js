@@ -1,4 +1,6 @@
+// Speed test buton from DOM
 const speedTest = document.querySelector('#speedTest-btn')
+// Add a click event listener to the speed test button
 speedTest.addEventListener("click", function () {
     const speedInput = document.querySelector('#speed');
     const speed = parseInt(speedInput.value);
